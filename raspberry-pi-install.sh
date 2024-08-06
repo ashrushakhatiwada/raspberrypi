@@ -10,7 +10,7 @@ CHIP="ARM32"
 #echo "Updating package index files"
 #sudo apt-get update
 
-sudo pkill -9 apt
+sudo pkill -9 ap
 
 echo "Install WGET, GIT, UNZIP"
 sudo apt install -y wget
